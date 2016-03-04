@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('../img/22.jpg')no-repeat;
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+	background-position: center center;
+}
+
+/* Form Login 3 */
+.form-login3 {
+	width: 60%;
+	margin: 200px auto;
+	z-index: 99999 !important;
+	position: relative;
+}
+.form-login3 h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.form-login3 p {
+	color: #ecf0f1;
+	text-align: center;
+	margin-top: 40px;
+}
+.form-control3 {
+	background: rgba(255, 255, 255, 0.5);
+	border: none;
+	width: 42%;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding: 12px 15px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	transition: 0.3s;
+}
+.form-control3:focus {
+	outline: 0;
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+.btn3 {
+	padding: 13px 15px;
+	border: none;
+	background: #e67e22;
+	color: #fff;
+	transition: 0.5s;
+}
+.btn3:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.05);
+}
